@@ -1,86 +1,259 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Chotkan | Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-code-slash"></i> Aditya Chotkan
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#home">
-            <i class="bi bi-code-slash"></i> Aditya Chotkan
-        </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Over mij</a>
+                    </li>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
 
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#home"><i class="bi bi-house"></i> Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person"></i> Over mij</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills"><i class="bi bi-lightning"></i> Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects"><i class="bi bi-folder"></i> Projecten</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-envelope"></i> Contact</a></li>
-            </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Werkervaring</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Opleiding</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<section id="home" class="min-vh-100 d-flex align-items-center bg-dark text-white">
-    <div class="container">
-        <div class="row align-items-center gy-5">
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <span class="badge bg-primary mb-3">
+                         Software Developer
+                    </span>
 
-            <div class="col-12 col-lg-6 text-center text-lg-start">
-                <h1 class="display-3 fw-bold">Hallo, ik ben Aditya</h1>
+                    <h1 class="display-2 fw-bold">
+                        Aditya Chotkan
+                    </h1>
 
-                <p class="lead">
-                    Software Developer student met interesse in webdevelopment,
-                    backend development en cybersecurity.
+                    <p class="lead my-4">
+                        Afgestudeerd Software Developer met ervaring in webdevelopment,
+                        databases, Symfony, Linux en ICT-ondersteuning.
+
+                        Momenteel werkzaam als ICT-Medewerker bij Hollandse Zorg Groep en
+                        vanaf september 2026 start ik met de HBO-ICT opleiding.
+                    </p>
+
+                    <a href="#contact" class="btn btn-primary btn-lg me-2">
+                        Contact opnemen
+                    </a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="Image/aditya.jpg"
+                        alt="Aditya Chotkan"
+                        class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OVER MIJ -->
+    <section id="about" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">
+                Over Mij
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="glass-card">
+                        <p>
+                            Mijn naam is Aditya Chotkan en ik ben een 20-jarige Software Developer uit Zuid-Holland.
+                        </p>
+                      
+                        <p>
+                            Na het behalen van mijn MAVO-diploma heb ik de opleiding
+                            MBO 4 Software Developer aan ROC Mondriaan succesvol afgerond.
+                            Vanaf september 2026 start ik met de opleiding HBO-ICT om mezelf
+                            verder te ontwikkelen binnen de IT-sector.
+                        </p>
+                      
+                        <p>
+                            Tijdens mijn opleiding heb ik praktijkervaring opgedaan bij
+                            Hollandse Zorg Groep. Hier heb ik gewerkt aan websites,
+                            databases, ICT-ondersteuning en diverse technische oplossingen
+                            voor de organisatie.
+                        </p>
+                      
+                        <p>
+                            In mijn vrije tijd ben ik graag actief bezig. Ik voetbal,
+                            sport regelmatig in de sportschool en breng graag tijd door
+                            met familie en vrienden. Daarnaast vind ik het leuk om te gamen,
+                            films en series te kijken.
+                        </p>
+                      
+                        <p>
+                            Ik omschrijf mezelf als een leergierig, sociaal en betrokken persoon.
+                            Ik heb doorzettingsvermogen, denk oplossingsgericht en vind het belangrijk
+                            om eerlijk, vriendelijk en respectvol met anderen om te gaan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section-light">
+        <div class="container">
+            <h2 class="section-title dark">
+                Skills
+            </h2>
+                <div class="row g-4">
+                  <div class="col-md-6 col-xl-3">
+                    <div class="skill-card">
+                        <i class="bi bi-code-slash"></i>
+                        <h4>Webdevelopment</h4>
+                        <p>HTML, CSS, Bootstrap, PHP</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3">
+                    <div class="skill-card">
+                        <i class="bi bi-layers"></i>
+                        <h4>Frameworks</h4>
+                        <p>Symfony</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3">
+                    <div class="skill-card">
+                        <i class="bi bi-database"></i>
+                        <h4>Databases</h4>
+                        <p>Databasebeheer en MySQL</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-xl-3">
+                    <div class="skill-card">
+                        <i class="bi bi-terminal"></i>
+                        <h4>Systemen & Tools</h4>
+                        <p>Ubuntu, Linux, Git, GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WERKERVARING -->
+    <section id="experience" class="section-dark">
+        <div class="container">
+            <h2 class="section-title">
+                Werkervaring
+            </h2>
+
+            <div class="glass-card">
+                <h4>ICT-Medewerker</h4>
+                  <p class="text-info">Hollandse Zorg Groep | Mei 2026 - Juli 2026</p>
+
+                  <p>
+                      Na mijn stage ben ik gevraagd om nog drie maanden werkzaam te blijven als
+                      ICT-Medewerker bij Hollandse Zorg Groep.
+                  </p>
+
+                  <p>
+                      Binnen deze functie heb ik gewerkt aan websites, databases en ICT-ondersteuning.
+                      Hierbij heb ik ervaring opgedaan met PHP, HTML, CSS, Symfony, Ubuntu en
+                      databasebeheer.
+                  </p>
+
+                  <hr>
+
+                  <h4>ICT Stage</h4>
+                  <p class="text-info">Hollandse Zorg Groep | September 2025 - April 2026</p>
+
+                  <p>
+                      Tijdens mijn stage bij Hollandse Zorg Groep heb ik praktijkervaring opgedaan binnen de ICT-sector.
+                      Ik heb meegewerkt aan de ontwikkeling en het beheer van websites, gewerkt met databases
+                      en ondersteuning geboden bij verschillende ICT-processen.
+                  </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- OPLEIDING -->
+    <section id="education" class="section-light">
+        <div class="container">
+            <h2 class="section-title dark">
+               Opleiding
+            </h2>
+            <div class="skill-card">
+
+                <h3>
+                    MBO 4 Software Developer
+                </h3>
+
+                <p>
+                    ROC Mondriaan Brasserskade
                 </p>
 
-                <a href="#projects" class="btn btn-primary btn-lg me-2">
-                    Bekijk projecten
-                </a>
-
-                <a href="#contact" class="btn btn-outline-light btn-lg">
-                    Contact
-                </a>
+                <p>
+                    Afgerond in 2026
+                </p>
             </div>
-
-            <div class="col-12 col-lg-6 text-center">
-                <img src="Image/aditya.jpg"
-                     class="img-fluid rounded-circle shadow"
-                     width="350"
-                     alt="Foto van Aditya">
-            </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="about" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Over mij</h2>
-        <p class="text-center">
-            Ik ben Aditya Chotkan, een Software Developer student.
-        </p>
-    </div>
-</section>
+    <!-- CONTACT -->
+    <section id="contact" class="section-dark">
+        <div class="container text-center">
+            <h2 class="section-title">
+                Contact
+            </h2>
 
-<section id="skills" class="py-5 bg-light">
-    <div class="container">
-        <h2 class="text-center mb-4">Skills</h2>
-    </div>
-</section>
+            <p>
+                Geïnteresseerd? Neem gerust contact met mij op.
+            </p>
 
-<section id="projects" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Projecten</h2>
-    </div>
-</section>
+            <div class="contact-icons">
+                <a href="mailto:a.chotkan28@gmail.com">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
 
-<section id="contact" class="py-5 bg-dark text-white">
-    <div class="container">
-        <h2 class="text-center mb-4">Contact</h2>
-    </div>
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+                <a href="https://github.com/A-Chotkan" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
